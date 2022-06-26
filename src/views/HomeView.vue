@@ -54,8 +54,6 @@ export default {
     };
   },
   created() {
-    // console.log(this.vehicles);
-    // console.log(this.vehicle_media_urls);
   },
 };
 </script>
