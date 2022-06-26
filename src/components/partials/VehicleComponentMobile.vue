@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="h-auto grid grid-cols-3 gap-1">
-      <div class="float-left" v-for="index in 3" :key="index">
-        <img style=" ;" class="rounded-xl" :src="vehicle_media_urls[0]['thumb']" alt="" />
+      <div v-for="index in 3" :key="index">
+        <img class="rounded-xl" :src="vehicle_media_urls[0]['thumb']" alt="" />
       </div>
     </div>
     <div class="vehicle_details_wrapper">
